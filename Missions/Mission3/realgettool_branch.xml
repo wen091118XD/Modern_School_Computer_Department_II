@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="realgettoolbranch" >
+  <goals>
+        <goal type="filedeletion" target="MainIRCWhitelistServer" file="@1_115.54.137.79_Disconnected" path="log"/>
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/IRCmassage2/UploadTools.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>NONE</sender>
+    <subject>ERROR</subject>
+    <body>ERROE</body>
+
+    <attachments>
+      
+    </attachments>
+  </email>
+</mission>

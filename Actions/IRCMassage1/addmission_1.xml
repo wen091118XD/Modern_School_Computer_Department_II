@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    <LoadMission MissionName="Missions/Mission3/realgettool.xml"/>
+  </Instantly>
+
+
+</ConditionalActions>

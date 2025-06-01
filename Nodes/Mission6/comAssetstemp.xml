@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="comAssetstemp" name="计算机社 临时存储服务器" security="0" allowsDefaultBootModule="false" type="empty" ip="99.45.9.16">
+    <ports>21</ports>
+    <portsForCrack val="1" />
+    <trace time="-1" />
+    <adminPass pass="computer4l1fe"/>
+
+    <file path="home" name="About memoryfinder dot exe.txt">经过与科学社协商,同意让科学社使用memoryfinder.exe以防止实验室突然断电造成的数据丢失
+此存储服务器仅限于科学社成员下载</file>
+
+    <file path="bin" name="memoryfinder.exe">#MEM_DUMP_GENERATOR#</file>
+    <file path="bin" name="memorydecoder.exe">#MEM_FORENSICS_EXE#</file>
+    <file path="home" name="StudentPower.txt">Cucumber说他也想要一套工具,特在此备注,回头要记得给他一份</file>
+</Computer>

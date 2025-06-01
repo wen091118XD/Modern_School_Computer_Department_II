@@ -1,0 +1,10 @@
+<ConditionalActions>
+<Instantly needsMissionComplete="false">
+    <LaunchHackScript Filepath="HackerScripts/Mission7/nevereoshacknever.txt" DelayHost="DelayHost" Delay="0" SourceComp="nevereos1" TargetComp="NeverComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    <AddAsset FileName="eOSscanertool.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="NeverComp" TargetFolderpath="bin"/>
+
+    <AddConditionalActions Filepath="Actions/IRCMassage5/findedtruth.xml" DelayHost="DelayHost" Delay="0"/>
+</Instantly>
+
+<!--2025/05/18 距离中考还有37天,尽管时间很紧,但我一点也不慌-->
+</ConditionalActions>

@@ -1,0 +1,29 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+delay 2 $#%#$
+connect $#%#$
+
+clearTerminal $#%#$
+stopMusic $#%#$
+delay 4 $#%#$
+writel 自动攻击:已开放22端口 $#%#$
+flash $#%#$
+delay 7 $#%#$
+writel 自动攻击:已开放21端口 $#%#$
+flash $#%#$
+delay 5 $#%#$
+writel 自动攻击:已开放25端口 $#%#$
+flash $#%#$
+delay 6 $#%#$
+writel 自动攻击:已开放80端口 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+writel 自动攻击:删除sys/x-server.sys $#%#$
+delete /sys x-server.sys $#%#$
+delay 1.5 $#%#$
+writel 自动攻击:forkbomb $#%#$
+forkbomb $#%#$
+delete /log * $#%#$
+disconnect $#%#$
+
+
+

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="getnewtools" activeCheck="true">
+    <goals>
+        <goal type="hasflag" target="connectsciassets"/>
+    </goals>
+
+    <nextMission IsSilent="false">Missions/Mission6/attention.xml</nextMission>
+
+    <email>
+        <sender>Tom</sender>
+        <subject>获取memoryfinder</subject>
+        <body>Luma自告奋勇去弄tracekill了,所以没法帮你们.
+你需要和Kiya共同合作,去科学社获取内存获取器和解密器,到手后上传到我的上传服务器的bin文件夹下.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

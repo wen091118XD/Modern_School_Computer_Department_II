@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TomSecretIRC" name="sPSB 的IRC服务器" 
+          ip="120.250.69.77"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="4" > 
+
+  <ports>21, 80, 1433, 443, 554</ports>
+
+  <portsForCrack val="4" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  <trace time="100" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+
+  <portRemap>web=8080,22=22</portRemap>
+
+      <IRCDaemon themeColor="135,206,250" name="sPSB IRC Server" needsLogin="false">
+
+        <user name="Jack" color="19,218,253" />
+        <user name="Never" color="255,143,18" />
+        <user name="Arlan" color="139,91,19" />
+        <user name="Cyan" color="254,12,1" />
+        <user name="Edon" color="255.1.8" />
+        <user name="Tom" color="128,108,128" />
+        <user name="Channel" color="255,255,0" />
+
+        <post user="Tom">@Never</post>
+        <post user="Tom">你在干啥????</post>
+        <post user="Tom">都告诉你下手轻一点,你forkboom他干啥</post>
+        <post user="Never">......</post> 
+        <post user="Never">我的问题我的问题</post>
+        <post user="Never">那现在怎么办</post>
+        <post user="Tom">还能怎么办?</post>
+        <post user="Tom">就顺着他们呗,让他们把你sys全删了</post>
+        <post user="Tom">现在反抗会让他们怀疑的</post>
+        <post user="Tom">回头我再把东西恢复</post>
+        <post user="Tom">对了@Jack</post>
+        <post user="Tom">那些破解工具卖的怎么样了??</post>
+        <post user="Jack">利润还行</post>
+        <post user="Cyan">xdm遇见个麻烦</post>
+        <post user="Cyan">我偷拍了几张长得还行的女生的照片,但是她好像要去学校举报我</post>
+        <post user="Cyan">这咋办啊</post>
+        <post user="Tom">把她证据删了不就完了,到时候她空口无凭,你也就没事了</post>
+
+    </IRCDaemon>
+    
+</Computer>

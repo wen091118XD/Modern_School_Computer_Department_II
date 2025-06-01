@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DelayHost" name="理论上，你找不到这个节点，除非你是翻文件翻出来的" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="1145141919810" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+
+<proxy time="100" />
+<portsForCrack val="101" />
+<trace time="10" />
+<firewall level="4" solution="cxkyyds" additionalTime="100" />
+<FastActionHost />
+
+<customthemefile path="home" name="x-server.sys" themePath="Themes/eOS-Hacknet.xml"/>
+
+</Computer>

@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    
+    <!--<AddAsset Filename="WebServerAnalyst.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <AddAsset FileName="FTPCrack.exe" FileContents="#FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+    <RunFunction FunctionName="addFlags:doesnthavetools" /> -->
+    <ChangeNetmapSortMethod DelayHost="DelayHost" Delay="0" Method="seqgrid" />
+  </Instantly>
+
+
+</ConditionalActions>

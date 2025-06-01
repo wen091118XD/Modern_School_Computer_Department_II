@@ -1,0 +1,23 @@
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="1">@#PLAYERNAME#</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="3">最近所有计算机部成员都在帮学校建设网站,所以我没时间</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="5">我需要你帮我个忙</AddIRCMessage>        
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="8">我朋友有一个"公共下载服务器"</AddIRCMessage>
+        
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="13">我需要你帮我把SSH,FTP这两种工具上传到他的服务器上</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="15">路径是home/sell</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="18">上传之后再把我朋友在sell文件夹留下的东西删了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="20">!ATTACHMENT:link#%#黑客工具买一送一 新站点#%#103.201.54.9</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="23">谢谢</AddIRCMessage>
+
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="27">加油哦#PLAYERNAME#</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="30">等你忙活完这件事就来帮我们吧</AddIRCMessage>
+
+
+        <AddConditionalActions Filepath="Actions/IRCMassage2/addmission_2.xml" DelayHost="DelayHost" Delay="20"/>
+    </OnConnect>
+
+</ConditionalActions>

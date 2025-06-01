@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsComp" name="Credits Server" ip="1.1.1.1" security="0" icon="chip"
+          allowsDefaultBootModule="true" type="4">
+  
+  <CreditsDaemon Title="Modern School:Computer Department II Credits" ButtonText="结束了...?"/>
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+  
+  <file path="home" name="CreditsData.txt" >-- Hacknet --
+^游戏制作
+%MATT TROBBIANI
+
+^剧情
+wenXD
+
+^音乐
+
+HoYoMix--GildedRunner
+大野克夫--Flomanth 2
+BovineBeta--cucTheme
+BovineBeta--happyIRC
+BovineBeta--WelcomeToStudentPower
+HacknetOSBackupServer--SayMyNameLoop
+Hacknet--Bit(Ending)
+Hacknet--TheAlgorithm
+DennatonGame--Roller_Mobster
+
+
+^特别鸣谢
+BovineBeta
+是您将我带到制作hacknet扩展的行列里
+是您创造了摩登中学世界观,让我的扩展有一个适合的世界观
+
+^壁纸
+BovineBeta--eOS-hacknet
+
+^后言
+这个扩展是我第一次制作的扩展包,在制作中遇到过很多的问题,期间也想过放弃
+每天干的最多的事就是 测扩展--遇到bug--写issues--解决 
+但是躺床上一想"就这样放弃前面的努力就白干了"
+终于,耗时26天,只有七个任务的MSDCII出现了
+后面的不是我不想写,而是我的灵感已经枯竭了,所以就咕了
+可能以后会随缘更新吧...
+--wenXD 2025/05/24 22:47
+</file>
+
+
+  
+</Computer>

@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+connect $#%#$
+delay 2.7 $#%#$
+writel 幸亏来的及... $#%#$
+delay 2 $#%#$
+writel 我是Tom $#%#$
+delay 3 $#%#$
+writel 刚才我的追踪器一直在报警,没想到你真的遇见麻烦了 $#%#$
+delay 3 $#%#$
+writel 让我看看...嗯,你的xerver被删了... $#%#$
+delay 3 $#%#$
+writel 而且你的sys里有一个病毒,这玩意还是隐藏的,你没法删了它... $#%#$
+delay 2 $#%#$
+writel 就这样不管他也不是个法子...有了 $#%#$
+delay 3 $#%#$
+writel 去我的上传服务器,我在那个服务器的home文件夹下放了一个xserver $#%#$
+delay 4 $#%#$
+writel 如果你忘了链接的话,我放在这里了 120.250.68.237 $#%#$
+delay 3 $#%#$
+writel 我先帮你把系统控件解除隐藏状态... $#%#$
+delay 5 $#%#$
+writel 好了,下载完成之后重启一下,你的系统应该就好了 $#%#$
+startMusic $#%#$

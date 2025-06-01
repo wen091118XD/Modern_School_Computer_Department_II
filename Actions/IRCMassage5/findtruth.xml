@@ -1,0 +1,16 @@
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+        <RunFunction FunctionName="playCustomSong:Music/1412's_song.ogg" />
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="0.5">ok</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="2">现阶段的任务就算弄完了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="4">大家可以好好休息下了</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="MainIRC" Delay="7">我搞到tracekill了</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="MainIRC" Delay="8">已经上传到上传服务器了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="9">ok</AddIRCMessage>
+        
+        <AddConditionalActions Filepath="Actions/IRCMassage5/addtracekill.xml" DelayHost="DelayHost" Delay="7"/>
+        <AddConditionalActions Filepath="Actions/IRCMassage5/nevereoshacknever.xml" DelayHost="DelayHost" Delay="2"/>
+    </OnConnect>
+
+<!--2025/05/18 距离中考还有37天,尽管时间很紧,但我一点也不慌-->
+</ConditionalActions>

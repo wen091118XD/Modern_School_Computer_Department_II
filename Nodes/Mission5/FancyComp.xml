@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FancyComp" name="Fancy 的电脑" ip="43.13.165.242" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="123456ABC" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+
+<proxy time="-1" />
+<portsForCrack val="5" />
+<trace time="150" />
+<firewall level="4" solution="FancyisntNever" additionalTime="0.05" />
+
+<file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+
+<file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+
+</Computer>

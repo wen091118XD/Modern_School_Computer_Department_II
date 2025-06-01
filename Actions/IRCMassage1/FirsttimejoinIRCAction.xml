@@ -1,0 +1,41 @@
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="0.5">别着急老大,他应该快来了</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="1">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="2">*** #PLAYERNAME#加入了IRC服务器</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="4">欢迎</AddIRCMessage>
+
+        <AddConditionalActions Filepath="Actions/IRCMassage1/createtools.xml" DelayHost="DelayHost" Delay="11"/> 
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="19">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="22">我在上传服务器上放了点破解工具</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="24.4">自己看看缺什么工具,对着服务器上点一遍,查漏补缺</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="25">!ATTACHMENT:link#%#Tom 的上传服务器#%#120.250.68.237</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/IRCMassage1/addmission_1.xml" DelayHost="DelayHost" Delay="18"/>
+
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="26">收到</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="MainIRC" Delay="28">欢迎新朋友</AddIRCMessage>
+
+        <AddIRCMessage Author="Fancy" TargetComp="MainIRC" Delay="30">我差了好多东西...</AddIRCMessage>
+    </OnConnect>
+
+    <HasFlags requiredFlags="havetools">
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="6">Sry头儿,刚去弄了点东西</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="7">...动作这么快的吗</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="10">你不会是把部员们的计算机都给入侵了吧</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="14">算了..刚刚不小心在白名单服务器上忘删日志了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="17">帮我把在IRC白名单服务器上留下的断连日志删了吧</AddIRCMessage>
+    </HasFlags>
+
+    <HasFlags requiredFlags="doesnthavetools">
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="6">Sry头儿,刚睡醒</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="7.5">...以后记得勤快点</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="10">对了,你现在还没有工具吧</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="14">我在上传服务器上放了点破解工具</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="17">下载完了记得回来</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="18">!ATTACHMENT:link#%#Tom 的上传服务器#%#120.250.68.237</AddIRCMessage>
+    </HasFlags>
+
+
+
+
+</ConditionalActions>

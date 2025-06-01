@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="KiyaComp" name="Kiya 的电脑" ip="212.70.54.191" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="Kiya123" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="-1" />
+<portsForCrack val="2" />
+<trace time="120" />
+<firewall level="4" solution="kiya123" additionalTime="0.1" />
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+
+<file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+
+</Computer>

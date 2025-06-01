@@ -1,0 +1,25 @@
+jmail 146.175.59.98 school
+
+mainircwhitelistserver 120.250.69.78 tom
+mainirc 120.250.69.79 tom
+mainircuploadserver 120.250.68.237 tom
+tomsecretircserver 120.250.69.77 tom
+
+Kiya 212.70.54.191 friend
+Lost 181.28.235.205 friend
+LostIRC 181.56.54.55 lost
+Fancy 43.13.165.242 never
+Luma 175.20.175.213 friend
+Tomproxy1 115.54.137.79 boss
+Tom 59.142.88.89 boss
+
+toolseller_website_new 103.201.54.9 jack
+
+科学部 128.61.164.151 peter
+计算机部_临时下载服务器 99.45.9.16 computerdepartment
+168.130.153.51
+89.85.206.148
+168.157.100.139
+173.94.242.38
+87.23.95.18
+13.132.101.147

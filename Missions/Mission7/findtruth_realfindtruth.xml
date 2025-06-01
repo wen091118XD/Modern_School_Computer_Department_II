@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="findtruthrealfindtruth" >
+    <goals>
+        <goal type="delay" time="0.5"/>
+    </goals>
+        <missionStart>loadConditionalActions:Actions/LostIRC1/revenge.xml</missionStart>
+    <nextMission>NONE</nextMission>
+
+    <email>
+        <sender>Lost</sender>
+        <subject>你也看到了吧</subject>
+        <body>Tom背地里居然...哎,现在说这些都晚了,我们现在的任务是查询他们究竟要干什么,到我的IRC服务器里详谈吧...</body>
+        <attachments>
+            <link comp="LostIRC"/>
+        </attachments>
+    </email>
+</mission>

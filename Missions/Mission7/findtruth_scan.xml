@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="findtruthscan" >
+    <goals>
+        <goal type="getadmin" target="nevereos1"/>
+    </goals>
+
+    <nextMission IsSilent="false">Missions/Mission7/findtruth_deepdig.xml</nextMission>
+
+    <email>
+        <sender>Lost</sender>
+        <subject>你有没有发现什么不对劲</subject>
+        <body>我就长话短说了,这几天我一直在never的设备上探查一些蛛丝马迹,没想到今天真的让我发现了---一个奇怪的断连日志.
+重新检查never的logs文件夹,必要时使用tracekill</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

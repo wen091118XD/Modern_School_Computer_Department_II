@@ -1,0 +1,23 @@
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+        <RunFunction FunctionName="playCustomSong:Music/ModernSchool/cucTheme.ogg" />
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="0.5">ok,接下来你们有个团队任务</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="2">我,Lost还有Fancy都在写网页,所以没法帮你们</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="4">简而言之,你们要获取两个新工具</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="7">一个叫TraceKill,这个可以暂停计时器.另一个叫memoryfinder,memorydecoder它可以获取当前机器的内存.</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="MainIRC" Delay="9">我来搞定TraceKill</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="11">ok</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="13">那么@#PLAYERNAME#和@Kiya就去搞定memoryfinder和decoder吧</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="16">ok</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="19">收到</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="22">我唯一获取到的情报是科学社在做这个工具</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="25">23.57.193.70 这是科学社的一位成员,他叫Peter</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="27">下载完就上传到我的上传服务器的bin吧</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/IRCMassage4/addmission_4.xml" DelayHost="DelayHost" Delay="25"/>
+
+        <AddConditionalActions Filepath="Actions/IRCMassage4/getnewtools_sciassets.xml" DelayHost="DelayHost" Delay="30"/>
+
+    </OnConnect>
+
+<!--2025/05/18 距离中考还有37天,尽管时间很紧,但我一点也不慌-->
+</ConditionalActions>

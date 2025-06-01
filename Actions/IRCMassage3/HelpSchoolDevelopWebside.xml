@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+        <RunFunction FunctionName="playCustomSong:Music/HoYoMix/GildedRunner.ogg" />
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="1">欢迎回来</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="3">哎...</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="5">别灰心,尽然你已经回来了,那就来帮我们弄网站吧</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="7">终于把上传部分写好了</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="10">这部分困扰了我足足两天</AddIRCMessage>
+
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="11">我的那部分也快好了,应该很快就能...</AddIRCMessage>
+        <LaunchHackScript Filepath="HackerScripts/Mission5/neverhacklost.txt" DelayHost="DelayHost" Delay="11" SourceComp="NeverComp" TargetComp="LostComp" RequireLogsOnSource="false" RequireSourceIntact="true" />
+        
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="11.5">什么?</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="12.4">NOOOOOOO!</AddIRCMessage>
+
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="12.6">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="13">*** Lost退出了IRC服务器</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="14">@Lost怎么了?发生什么事了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="16">@#PLAYERNAME#我命令你现在去Lost的机器,看看他怎么了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="17">!ATTACHMENT:link#%#Lost 的电脑#%#181.28.235.205</AddIRCMessage>
+
+        <AddConditionalActions Filepath="Actions/IRCMassage3/addmission_3.xml" DelayHost="DelayHost" Delay="17"/>        
+
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="19">好的</AddIRCMessage>
+        
+    </OnConnect>
+    
+</ConditionalActions>

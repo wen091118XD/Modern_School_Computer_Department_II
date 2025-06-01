@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="end" activeCheck="true">
+  <goals>
+       <goal type="delay" time="5"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>Lost</sender>
+    <subject>正义终将到来</subject>
+    <body>你听说了吗?Tom被学校开除了.哼,就他犯的那点事没让帽子给抓起来都算好的了,我们也该回归正常的生活了.谢谢你#PLAYERNAME#,我会永远记得我们并肩作战的日子的
+</body>
+
+    <attachments>
+        <link comp="creditsComp" />
+    </attachments>
+  </email>
+</mission>
+

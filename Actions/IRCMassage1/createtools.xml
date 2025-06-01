@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+    <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+    <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+    <AddAsset FileName="WebServerAnalyst.exe" FileContents="#WEB_CRACK#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+    <AddAsset FileName="FTPCrack.exe" FileContents="#FTP_CRACK#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+
+    <AddAsset FileName="@1_115.54.137.79_Disconnected" FileContents=">[115.54.137.79] Disconnected from system" TargetComp="MainIRCWhitelistServer" TargetFolderpath="log"/>
+    <!--
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+    <file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file> -->
+
+    <AddConditionalActions Filepath="Actions/IRCMassage1/createtools_friends.xml" DelayHost="DelayHost" Delay="18"/>
+
+  </Instantly>
+
+
+</ConditionalActions>

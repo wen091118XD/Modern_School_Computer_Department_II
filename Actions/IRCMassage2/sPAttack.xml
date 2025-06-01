@@ -1,0 +1,54 @@
+<ConditionalActions>
+
+    <Instantly>
+    
+        <KillExe DelayHost="DelayHost" Delay="2" ExeName="*"/>
+        <LaunchHackScript Filepath="HackerScripts/Mission4/sPAttackHack.txt" DelayHost="DelayHost" Delay="0" SourceComp="sPAttacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true" />
+
+        <SetLock DelayHost="DelayHost" Delay="2" Module="terminal" IsLocked="true" IsHidden="true" />
+        <SetLock DelayHost="DelayHost" Delay="2.1" Module="NetMap" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="DelayHost" Delay="2.2" Module="Ram" IsLocked="true" IsHidden="false"/>
+        <SetLock DelayHost="DelayHost" Delay="2.3" Module="Display" IsLocked="true" IsHidden="true"/>
+
+        <SetLock DelayHost="DelayHost" Delay="3" Module="terminal" IsLocked="true" IsHidden="false" />
+
+        <LaunchHackScript Filepath="HackerScripts/Mission4/tomhelp.txt" DelayHost="DelayHost" Delay="28" SourceComp="TomCompproxy1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+
+        <SetLock DelayHost="DelayHost" Delay="54.2" Module="terminal" IsLocked="false" IsHidden="false" />
+        <SetLock DelayHost="DelayHost" Delay="54.7" Module="NetMap" IsLocked="false" IsHidden="true" />
+        <SetLock DelayHost="DelayHost" Delay="55.1" Module="Ram" IsLocked="false" IsHidden="false" />
+        <SetLock DelayHost="DelayHost" Delay="55.4" Module="Display" IsLocked="false" IsHidden="false" />
+        
+
+        <KillExe DelayHost="DelayHost" Delay="31" ExeName="*"/>
+
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="2">ok@#PLAYERNAME#你干的很好</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="3.5">不太对劲...</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="7">糟了!!</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="8">@Lost@Kiya #PLAYERNAME#的机器被入侵了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="9.5">你们俩去调查一下入侵#PLAYERNAME#电脑的人</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="11">快!</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="12.3">收到</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="13">包在我身上</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="14">我现在赶快去#PLAYERNAME#的电脑</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="16">但愿来得及...</AddIRCMessage>
+
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="20">找到了,是studentpower</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="21">studentpower?</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="23">那不是计算机一部的人吗</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="25">等一下,我快进入#PLAYERNAME#的机器了</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="28">给你俩个任务,去清空攻击者的sys文件夹</AddIRCMessage>
+
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="29">收到</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="29.5">好的</AddIRCMessage>
+
+    <LaunchHackScript Filepath="HackerScripts/Mission4/HacksPAttack.txt" DelayHost="DelayHost" Delay="30" SourceComp="LostComp" TargetComp="sPAttacker" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+
+
+
+    </Instantly>
+
+
+</ConditionalActions>

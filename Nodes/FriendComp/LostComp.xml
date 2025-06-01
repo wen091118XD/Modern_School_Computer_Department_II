@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LostComp" name="Lost 的电脑" ip="181.28.235.205" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="LostForever" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="0.5" />
+<portsForCrack val="3" />
+<trace time="120" />
+<firewall level="4" solution="LostForever" additionalTime="0.1" />
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+
+<file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+</Computer>

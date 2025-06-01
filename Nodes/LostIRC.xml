@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LostIRC" name="Lost 的IRC服务器" 
+          ip="181.56.54.55"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="4" > 
+
+  <ports>21, 80, 1433, 443, 554</ports>
+
+  <portsForCrack val="5" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  <trace time="100" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+
+  <portRemap>web=8080,22=22</portRemap>
+
+
+      <IRCDaemon themeColor="135,206,250" name="Tom IRC Server" needsLogin="false">
+
+        <user name="Kiya" color="19,248,253" />
+        <user name="Lost" color="255,153,18" />
+        <user name="Cucumber" color="139,69,19" />
+        <user name="Luma" color="254,140,1" />
+        <user name="#PLAYERNAME#" color="128,128,128" />
+        <user name="Channel" color="255,255,0" />
+
+
+    </IRCDaemon>
+    
+</Computer>

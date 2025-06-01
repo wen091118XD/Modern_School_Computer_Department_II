@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="MainIRCUploadServer" name="Tom 的上传服务器" ip="120.250.68.237" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+
+  <ports>21, 80, 1433, 443, 25</ports>
+
+  <portsForCrack val="0" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  <trace time="-1" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+
+  <portRemap>web=8080,22=22</portRemap>
+  
+  <!-- Network Stuff -->
+  <dlink target="MainIRC"/> <!-- This links this computer to another (one way) - if you scan from it, it reveals the links -->
+  <dlink target="MainIRCWhitelistServer"/>
+  <dlink target="TomCompproxy1"/>
+  <WhitelistAuthenticatorDaemon Remote="MainIRCWhitelistServer"/>
+
+  <uploadServerDaemon name="Tom Upload Dropbox" folder="Drops" needsAuth="false" color="205,116,212"/>
+  
+  <customthemefile path="home" name="x-server.sys" themePath="Themes/eOS-Hacknet-Modified.xml"/>
+  
+  
+</Computer>

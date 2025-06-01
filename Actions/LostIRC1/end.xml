@@ -1,0 +1,24 @@
+<ConditionalActions>
+
+<Instantly>
+    <CancelScreenBleedEffect DelayHost="DelayHost" Delay="0"/>
+    <KillExe DelayHost="DelayHost" Delay="0" ExeName="*"/>
+        <RunFunction FunctionName="playCustomSong:Music/ModernSchool/happyIRC.ogg" />
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="2">一切都结束了</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="4">对</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="LostIRC" Delay="5">终于...</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="LostIRC" Delay="7">真不容易</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="9">我会向学校举报的</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="11">感谢大家的帮助</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="13">举手之劳.</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="15">那么,我们也该解散了</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="16">注意安全,但也别安全的过头了</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="17">再见.</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="18">各位保重</AddIRCMessage>
+
+        <AddConditionalActions Filepath="Actions/end/end.xml" DelayHost="DelayHost" Delay="25"/>
+</Instantly>
+
+
+
+</ConditionalActions>

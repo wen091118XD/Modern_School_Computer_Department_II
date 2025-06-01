@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="helplost" activeCheck="true" >
+  <goals>
+  
+    <goal type="fileupload" target="playerComp" file="x-server.sys" path="sys" destTarget="LostComp" destPath="sys"/>
+    <goal type="fileupload" target="playerComp" file="os-config.sys" path="sys" destTarget="LostComp" destPath="sys"/>
+    <goal type="fileupload" target="playerComp" file="bootcfg.dll" path="sys" destTarget="LostComp" destPath="sys"/>
+    <goal type="fileupload" target="playerComp" file="netcfgx.dll" path="sys" destTarget="LostComp" destPath="sys"/>
+
+    <!--<CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="MainIRCUploadServer" SourceFileName="x-server.sys" SourceFilePath="home"/>
+        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="MainIRCUploadServer" SourceFileName="os-config.sys" SourceFilePath="sys"/>
+        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="MainIRCUploadServer" SourceFileName="bootcfg.dll" SourceFilePath="sys"/>
+        <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="MainIRCUploadServer" SourceFileName="netcfgx.dll" SourceFilePath="sys"/> -->
+    
+  </goals>
+  <missionEnd>loadConditionalActions:Actions/IRCmassage3/HelpSchoolDevelopWebsidepart2.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+
+
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>Tom</sender>
+    <subject>解救Lost</subject>
+    <body>去Lost的电脑查清楚他怎么了,然后试着帮他解决问题</body>
+
+    <attachments>
+      <link comp="LostComp" />
+    </attachments>
+  </email>
+</mission>

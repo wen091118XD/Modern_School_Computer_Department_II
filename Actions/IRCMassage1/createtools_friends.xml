@@ -1,0 +1,31 @@
+<ConditionalActions>
+  
+  <Instantly>  
+  <!--Kiya--> 
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="KiyaComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="KiyaComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="KiyaComp" TargetFolderpath="bin"/>
+
+  <!--Luma-->
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="LumaComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="LumaComp" TargetFolderpath="bin"/>
+  <!--Lost-->
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="LostComp" TargetFolderpath="bin"/>
+  <!--Fancy-->
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="FancyComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="FancyComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="FancyComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="FancyComp" TargetFolderpath="bin"/>
+
+    <!--
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+    <file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file> -->
+
+  </Instantly>
+
+
+</ConditionalActions>

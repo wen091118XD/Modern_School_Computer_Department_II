@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="findtruth" activeCheck="true" >
+    <goals>
+        <goal type="delay" time="15"/>
+    </goals>
+
+    <nextMission>Missions/Mission7/findtruth_scan.xml</nextMission>
+
+    <email>
+        <sender>Tom</sender>
+        <subject>恭喜恭喜</subject>
+        <body>目前咱们的任务就算完成了,咱们可以好好歇几天了</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

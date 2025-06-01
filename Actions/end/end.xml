@@ -1,0 +1,21 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/ModernSchool/WelcomeToStudentPower.ogg" />
+
+        <SetLock DelayHost="DelayHost" Delay="0" Module="terminal" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="DelayHost" Delay="0" Module="ram" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="DelayHost" Delay="0" Module="netmap" IsLocked="true" IsHidden="true"/>
+        <SetLock DelayHost="DelayHost" Delay="0" Module="display" IsLocked="true" IsHidden="true"/>
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.end.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="0" />
+        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.ms.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="5" />
+        <SwitchToTheme ThemePathOrName="Themes/eOS-Hacknet-Modified.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="10"/>
+
+        <SetLock DelayHost="DelayHost" Delay="10" Module="terminal" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="DelayHost" Delay="10" Module="ram" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="DelayHost" Delay="10" Module="netmap" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="DelayHost" Delay="10" Module="display" IsLocked="false" IsHidden="false"/>
+
+        <AddConditionalActions Filepath="Actions/end/end_mail.xml" DelayHost="DelayHost" Delay="15"/>
+
+    </Instantly>
+</ConditionalActions>

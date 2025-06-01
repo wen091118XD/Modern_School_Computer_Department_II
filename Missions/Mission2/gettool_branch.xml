@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="gettoolbranch" activeCheck="true" >
+  <goals>
+        <goal type="hasflag" target="connectIRC"/>
+  </goals>
+  
+    <missionEnd>loadConditionalActions:Actions/IRCmassage1/doesnthavetools2.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>跳板任务不会发邮件</sender>
+    <subject>跳板任务不会发邮件</subject>
+    <body>跳板任务不会发邮件</body>
+
+    <attachments>
+      
+    </attachments>
+  </email>
+</mission>

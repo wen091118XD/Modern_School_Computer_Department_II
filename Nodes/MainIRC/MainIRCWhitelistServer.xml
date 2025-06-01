@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="MainIRCWhitelistServer" name="计算机社二部专用IRC服务器 防火墙" ip="120.250.69.78" security="1" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+
+  <ports>21, 80, 1433, 443, 554</ports>
+
+  <portsForCrack val="2" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  <trace time="100" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+
+  <portRemap>web=8080,22=22</portRemap>
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+
+  <file path="Whitelist" name="list.txt">
+115.54.137.79
+212.70.54.191
+181.28.235.205
+43.13.165.242
+175.20.175.213</file>
+  <!-- Network Stuff -->
+</Computer>

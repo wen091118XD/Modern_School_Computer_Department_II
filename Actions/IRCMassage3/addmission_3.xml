@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    <LoadMission MissionName="Missions/Mission5/helplost.xml"/>
+  </Instantly>
+
+
+</ConditionalActions>

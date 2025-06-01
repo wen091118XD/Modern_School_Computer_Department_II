@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LumaComp" name="Luma 的电脑" ip="175.20.175.213" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="Luma123" />
+
+<ports>21, 22, 1433, 80</ports>
+
+<proxy time="-1" />
+<portsForCrack val="4" />
+<trace time="120" />
+<firewall level="4" solution="Luma" additionalTime="0.1" />
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+
+<file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+
+</Computer>

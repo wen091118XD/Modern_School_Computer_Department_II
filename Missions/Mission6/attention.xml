@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="mission6attention" activeCheck="true">
+    <goals>
+
+        <goal type="fileupload" target="playerComp" file="memoryfinder.exe" path="bin" destTarget="MainIRCUploadServer" destPath="bin"/>
+        <goal type="fileupload" target="playerComp" file="memorydecoder.exe" path="bin" destTarget="MainIRCUploadServer" destPath="bin"/>
+    </goals>
+    <missionEnd>loadConditionalActions:Actions/IRCMassage5/findtruth.xml</missionEnd>
+    <nextMission IsSilent="false">Missions/Mission7/findtruth.xml</nextMission>
+
+    <email>
+        <sender>Kiya</sender>
+        <subject>看一下IRC服务器</subject>
+        <body>我在peter的机器上找到了一些东西,我发到IRC服务器里了</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

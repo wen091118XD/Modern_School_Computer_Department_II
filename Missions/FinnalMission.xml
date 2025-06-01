@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="finnalmission" activeCheck="true">
+  <goals>
+        <goal type="clearfolder" target="tomComp" path="bin"/>
+        <goal type="clearfolder" target="tomComp" path="sys"/>
+        <goal type="clearfolder" target="tomComp" path="home"/>
+  </goals>
+  
+  <missionEnd>loadConditionalActions:Actions/LostIRC1/end.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+<!--
+    <branchMissions>
+        <branch>Missions/FinnalMission_branch.xml</branch>
+    </branchMissions> -->
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <sender>Err0r</sender>
+    <subject>FBIK</subject>
+    <body>ZQG</body>
+
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>
+

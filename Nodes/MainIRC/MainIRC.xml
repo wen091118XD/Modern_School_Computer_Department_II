@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MainIRC" name="计算机社二部专用IRC服务器" 
+          ip="120.250.69.79"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="4" > 
+
+  <ports>21, 80, 1433, 443, 554</ports>
+
+  <portsForCrack val="5" /> <!-- Number of ports to be open to allow porthack to run -->
+  
+  <trace time="100" /> <!-- Adds a trace timer of this many seconds. Set to -1 to remove -->
+
+  <portRemap>web=8080,22=22</portRemap>
+  <WhitelistAuthenticatorDaemon Remote="MainIRCWhitelistServer"/>
+
+      <IRCDaemon themeColor="135,206,250" name="Computer Department II IRC Server" needsLogin="false">
+
+        <user name="Kiya" color="19,248,253" />
+        <user name="Lost" color="255,153,18" />
+        <user name="Fancy" color="139,69,19" />
+        <user name="Luma" color="254,140,1" />
+        <user name="Tom" color="128,128,128" />
+        <user name="Channel" color="255,255,0" />
+
+        <post user="Tom">都进来了吧</post>
+        <post user="Tom">我有很重要的事情要说</post>
+
+        <post user="Kiya">等等,#PLAYERNAME#还没进来</post>
+  
+        <post user="Tom">......</post> 
+        <post user="Tom">让他动作快一点</post> 
+    </IRCDaemon>
+    
+</Computer>

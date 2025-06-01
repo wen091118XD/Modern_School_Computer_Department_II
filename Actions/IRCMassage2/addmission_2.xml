@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    <LoadMission MissionName="Missions/Mission4/uploadtool.xml"/>
+  </Instantly>
+
+
+</ConditionalActions>

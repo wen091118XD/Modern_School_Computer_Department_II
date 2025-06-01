@@ -1,0 +1,50 @@
+<ConditionalActions>
+    <OnConnect target="LostIRC">
+    <RunFunction FunctionName="playCustomSong:Music/TheAlgorithm.ogg" />
+        <AddIRCMessage Author="Channel" TargetComp="LostIRC" Delay="0.1">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="LostIRC" Delay="0.5">*** #PLAYERNAME#加入了IRC服务器</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="2">都进来了对吧</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="4">对</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="LostIRC" Delay="5">1</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="LostIRC" Delay="7">进来了</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="9">好的</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="11">所以我的计划是这样</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="14">和studentpower合作,扳倒tom</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="16">我已经联系到一位studentpower的成员</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="18">他应该很快就来</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="LostIRC" Delay="18.5">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="LostIRC" Delay="19">*** Cucumber加入了IRC服务器</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="20">说cuc cuc到</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="22">hello!我是cucumber,你们叫我cuc就好.</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="24">情况我已经了解了,这人之前我们也调查过.</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="27">我们本以为他只是个偷拍女生照片的,没想到他与jack,never,edon都有交集.</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="30">言归正传,你们打算怎么做.</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="32">cuc,你来找tom的节点,这是tom的代理</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="32.2">!ATTACHMENT:link#%#代理 X-12#%#115.54.137.79</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="33">ok</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="34">我,Luma负责清理你和#PLAYERNAME#还有Kiya留下来的日志</AddIRCMessage>
+        <AddIRCMessage Author="Luma" TargetComp="LostIRC" Delay="35">收到</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="36">至于#PLAYERNAME#和Kiya就负责主攻</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="37">ok</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="LostIRC" Delay="38">好的</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="40">ok各位,开始行动吧!</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="44">给我点时间...这个代理有点麻烦.</AddIRCMessage>
+        <AddIRCMessage Author="Cucumber" TargetComp="LostIRC" Delay="46">操!没办法攻破他的防火墙,我的工具太少了.</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="49">我有个办法,我来把防火墙的自我验证关掉,#PLAYERNAME#去把验证器删了,然后找一下Tom的基地</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="52">不过我能牵制那个自我验证的时间不长...这样吧</AddIRCMessage>
+
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="55">我上传个工具到你的机器,你开始进攻的时候点一下我就知道了</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="LostIRC" Delay="58">收到</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/LostIRC1/addSequencer.xml" DelayHost="DelayHost" Delay="59"/>
+        <RunFunction FunctionName="addFlags:BOSS" DelayHost="DelayHost" Delay="60"/>     
+        <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="60">求你了,不能失败啊</AddIRCMessage>
+    
+
+    </OnConnect>
+
+
+
+
+
+
+</ConditionalActions>

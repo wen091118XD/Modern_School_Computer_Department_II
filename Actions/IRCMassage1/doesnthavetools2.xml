@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <OnConnect target="MainIRC">
+  
+    <RunFunction FunctionName="addFlags:doesnthavetools" />
+    <!--<RunFunction FunctionName="removeFlags:havetools" /> -->
+
+    <AddConditionalActions Filepath="Actions/IRCMassage1/FirsttimejoinIRCAction.xml" DelayHost="DelayHost" Delay="0.5"/>
+  </OnConnect>
+
+
+</ConditionalActions>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="NeverComp" name="Never 的笔记本电脑" security="1" allowsDefaultBootModule="false" type="empty" icon="laptop">
+
+  <adminPass pass="spsbno1" />
+  <admin type="fast" isSuper="true" resetPassword="true" />
+  <ports>22, 80</ports>
+
+  <firewall level="4" solution="never" additionalTime="0.1" />
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <trace time="50" />
+
+  <dlink target="FancyComp"/>
+
+  <eosDevice name="Never 的 ePhone 4S" id="nevereos1" icon="ePhone" empty="true" passOverride="alpine">
+    <note>Jack的新服务器
+103.201.54.9
+</note>
+
+    <note>Tom的IRC服务器
+120.250.69.78(有防火墙)
+还好我有个Fancy的马甲,这样他们才不会起疑
+Important!:Fancy的机器上不要放东西
+</note>
+
+    <note>sPSB的IRC服务器
+120.250.69.77
+</note>
+
+    <file path="bin" name="eOS_ScanDriveTool.exe">#EOS_SCANNER_EXE#</file>
+
+  </eosDevice>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="trap.exe">#BINARYSMALL#</file>
+  <file path="bin" name="Shell-dev0.8.3.exe">#BINARYSMALL#</file>
+  
+
+</Computer>

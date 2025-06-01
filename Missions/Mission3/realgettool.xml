@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="realgettool" >
+  <goals>
+  
+    <goal type="filedownload" target="MainIRCUploadServer" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="MainIRCUploadServer" file="SQLBufferOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="MainIRCUploadServer" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="MainIRCUploadServer" file="SSLTrojan.exe" path="bin"/>
+    
+  </goals>
+
+  <missionEnd>loadConditionalActions:Actions/IRCmassage2/UploadTools.xml</missionEnd>
+  <nextMission>NONE</nextMission>
+
+    <branchMissions>
+        <branch>Missions/Mission3/realgettool_branch.xml</branch>
+    </branchMissions>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>Tom</sender>
+    <subject>帮个小忙</subject>
+    <body>完成刚才我交给你的任务</body>
+
+    <attachments>
+    </attachments>
+  </email>
+</mission>

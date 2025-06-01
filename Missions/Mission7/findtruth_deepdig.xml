@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="findtruthdeepdig" >
+    <goals>
+        <goal type="hasflag" target="findedtruth"/>
+    </goals>
+
+    <nextMission>Missions/Mission7/findtruth_realfindtruth.xml</nextMission>
+
+    <email>
+        <sender>Lost</sender>
+        <subject>继续深挖</subject>
+        <body>没想到never还有个手机,继续发掘背后的秘密吧,我觉得我们很快就要发现真相了</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

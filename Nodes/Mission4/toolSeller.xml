@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="toolSeller_new" name="黑客工具买一送一 新站点" security="1" allowsDefaultBootModule="false" type="empty" ip="103.201.54.9">
+
+  <addWebServer name="黑客工具买一送一 新站点" url="Web/Mission4/ToolSeller.html" />
+  <ports>22, 21, 80</ports>
+  <portsForCrack val="1" />
+  <firewall level="4"/>
+  <trace time="-1" />
+  <adminPass pass="spsb" />
+
+  <file path="home/sell" name="upload_here_and_delete_this_file">upload here and delete this file</file>
+
+</Computer>

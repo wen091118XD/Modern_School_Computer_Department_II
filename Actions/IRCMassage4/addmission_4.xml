@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>   
+    <LoadMission MissionName="Missions/Mission6/getnewtools.xml"/>
+  </Instantly>
+
+
+</ConditionalActions>

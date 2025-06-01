@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <OnConnect target="MainIRC">
+    <RunFunction FunctionName="addFlags:connectIRC" />
+    <!--<RunFunction FunctionName="removeFlags:havetools" /> -->
+  </OnConnect>
+
+
+</ConditionalActions>

@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="gettool" activeCheck="true" >
+  <goals>
+  
+    <goal type="filedownload" target="KiyaComp" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="LostComp" file="SQLBufferOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="LumaComp" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="TomCompproxy1" file="SSLTrojan.exe" path="bin"/>
+    
+  </goals>
+  <missionStart>loadConditionalActions:Actions/IRCmassage1/doesnthavetools.xml</missionStart>
+
+  <nextMission>Missions/Mission2/gettool_reply.xml</nextMission>
+
+    <branchMissions>
+        <branch>Missions/Mission2/gettool_branch.xml</branch>
+    </branchMissions>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>Kiya</sender>
+    <subject>快去IRC服务器</subject>
+    <body>好的,你已经有白名单了,所以快去IRC服务器吧,Tom都等着急了</body>
+
+    <attachments>
+      <link comp="MainIRC" />
+    </attachments>
+  </email>
+</mission>

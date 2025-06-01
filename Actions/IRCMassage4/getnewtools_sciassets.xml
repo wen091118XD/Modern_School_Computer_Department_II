@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<OnAdminGained target="sciAssets">
+
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="5">@#PLAYERNAME#新发现!!</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="8">我在peter的机器上找到了一点东西</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="13">看起来他想指引我们去这个地方</AddIRCMessage>
+        <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="17">99.45.9.16</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MainIRC" Delay="20">谢谢你Kiya,你可帮大忙了</AddIRCMessage>
+        <RunFunction FunctionName="addFlags:connectsciassets" DelayHost="DelayHost" Delay="3"/>
+</OnAdminGained>
+
+<!--2025/05/18 距离中考还有37天,尽管时间很紧,但我一点也不慌-->
+</ConditionalActions>

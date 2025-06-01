@@ -1,0 +1,6 @@
+<ConditionalActions>
+<OnConnect target="TomSecretIRC">
+    <RunFunction FunctionName="addFlags:findedtruth"/>
+</OnConnect>
+
+</ConditionalActions>

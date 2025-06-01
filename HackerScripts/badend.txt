@@ -1,0 +1,17 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.5 $#%#$
+
+stopMusic $#%#$
+writel 我是TOM $#%#$
+delay 2 $#%#$
+writel 听说你想要入侵我的机器? $#%#$
+delay 3 $#%#$
+writel hahaha,我这个防御系统是不是很给力 $#%#$
+delay 2 $#%#$
+writel ok,时间快到了,该说永别了... $#%#$
+delay 2 $#%#$
+writel 再见,再也不见 $#%#$
+delay 2 $#%#$
+systakeover $#%#$
+
+
+

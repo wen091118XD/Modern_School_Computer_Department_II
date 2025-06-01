@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TomCompproxy1" name="代理 X-12" ip="115.54.137.79" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="Tom" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<admin type="basic" isSuper="false" resetPassword="true"/>
+<proxy time="-1" />
+<portsForCrack val="5" />
+<trace time="100" />
+<firewall level="4" solution="TomandJerry" additionalTime="0.05" />
+
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+<file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+
+<Memory>
+    <Data>
+        <Block>connect 59.142.88.89</Block>
+        <Block>disconnect</Block>
+    </Data>
+ </Memory>
+
+</Computer>

@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+<Instantly>
+
+<AddConditionalActions Filepath="Actions/LostIRC1/addmission_finnel.xml" DelayHost="DelayHost" Delay="16"/>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="2">ok,正在破解...</AddIRCMessage>
+<AddIRCMessage Author="Lost" TargetComp="LostIRC" Delay="5">这是我们唯一的机会,失败后就会遭到tom的虚拟机打击</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="10">5</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="11">4</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="12">3</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="13">2</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="14">1</AddIRCMessage>
+<AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="15">GOGOGO!!!</AddIRCMessage>
+
+<StartScreenBleedEffect AlertTitle="FINALBATTLE" CompleteAction="Actions/end/badend.xml" TotalDurationSeconds="170" DelayHost="DelayHost" Delay="16">打破主动安全,摧毁防火墙
+找到Tom的网关,清除home,sys,bin文件夹
+GO!GO!GO!</StartScreenBleedEffect>
+
+<RunFunction FunctionName="playCustomSong:Music/Roller_Mobster_Clipped.ogg" />
+
+</Instantly>
+</ConditionalActions>

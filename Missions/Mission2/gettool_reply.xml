@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="gettoolreply" activeCheck="true" >
+  <goals>
+    <goal type="delay" time="0.1"/>
+  </goals>
+    
+    <missionEnd>loadConditionalActions:Actions/IRCmassage1/havetools.xml</missionEnd>
+  
+  <nextMission>NONE</nextMission>
+
+  <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
+  <email>
+    <!-- The sender field is very important for branching or silent mission chains. Even if this file you're editing isn't the
+    email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
+    any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
+    don't worry about it.-->
+    <sender>Kiya</sender>
+    <subject>我去,这么快</subject>
+    <body>什么...你入侵了我的机器????
+其他人的机器也被入侵了???
+我知道了,是白名单服务器把我们的ip地址泄露了
+能够在这么短的时间里入侵我们所有人的机器
+我现在对你有点刮目相看了..
+别浪费时间了,快点来IRC服务器,头已经等着急了</body>
+    <attachments></attachments>
+  </email>
+</mission>

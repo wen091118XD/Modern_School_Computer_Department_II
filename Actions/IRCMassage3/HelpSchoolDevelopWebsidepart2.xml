@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ConditionalActions>
+    <OnConnect target="MainIRC">
+
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="0.2">!ANNOUNCEMENT! - @Channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="MainIRC" Delay="0.5">*** Lost加入了IRC服务器</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="2">@Lost没事吧</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="3">TMD,你看我像是没事的样子吗</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="7">竟然敢入侵我的电脑,并且我还没保存就直接给我forkboom了???</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="9">好,很好!</AddIRCMessage>
+
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="12">@#PLAYERNAME#帮我个忙</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="15">那小子忘了清disconnect日志了</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="18">帮!我!毁!了!他!</AddIRCMessage>
+        <AddConditionalActions Filepath="Actions/IRCMassage3/addmission_3b.xml" DelayHost="DelayHost" Delay="18"/>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="20">我又得加班了...</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="22">@Lost 要不...算了吧</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="25">我帮你...</AddIRCMessage>
+        <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="25.4">不用!</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="26">好吧...</AddIRCMessage>
+
+
+
+
+        
+    </OnConnect>
+    
+</ConditionalActions>

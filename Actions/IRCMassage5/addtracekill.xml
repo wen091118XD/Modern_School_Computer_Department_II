@@ -1,0 +1,7 @@
+<ConditionalActions>
+<Instantly needsMissionComplete="false">
+    <AddAsset FileName="TraceKill.exe" FileContents="#TRACEKILL_EXE#" TargetComp="MainIRCUploadServer" TargetFolderpath="bin"/>
+
+</Instantly>
+
+</ConditionalActions>
