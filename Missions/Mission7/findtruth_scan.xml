@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="findtruthscan" >
+<mission id="findtruthscan" activeCheck="true">
     <goals>
         <goal type="getadmin" target="nevereos1"/>
     </goals>

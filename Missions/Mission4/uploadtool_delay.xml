@@ -17,7 +17,7 @@
     any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
     don't worry about it.-->
     <sender>Tom</sender>
-    <subject>Good!</subject>
+    <subject>干得不错</subject>
     <body>好的,#PLAYERNAME#你完成的很好</body>
 
     <attachments>

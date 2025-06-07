@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="findtruthrealfindtruth" >
+<mission id="findtruthrealfindtruth" activeCheck="true">
     <goals>
         <goal type="delay" time="0.5"/>
     </goals>

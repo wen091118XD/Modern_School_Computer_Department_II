@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="NeverComputer" name="Never 的电脑" security="1" allowsDefaultBootModule="false" type="empty" icon="DLCPC1">
+
+  <adminPass pass="spsbno1" />
+  <admin type="fast" isSuper="true" resetPassword="true" />
+  <ports>22, 80</ports>
+
+  <firewall level="4" solution="never" additionalTime="0.1" />
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <trace time="50" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="trap.exe">#BINARYSMALL#</file>
+  <file path="bin" name="Shell-dev0.8.3.exe">#BINARYSMALL#</file>
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
+    <file path="bin" name="FTPCrack.exe">#FTP_CRACK#</file>
+  
+
+</Computer>

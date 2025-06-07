@@ -11,6 +11,7 @@
   <trace time="50" />
 
   <dlink target="FancyComp"/>
+  <dlink target="NeverComputer"/>
 
   <eosDevice name="Never 的 ePhone 4S" id="nevereos1" icon="ePhone" empty="true" passOverride="alpine">
     <note>Jack的新服务器
@@ -20,7 +21,7 @@
     <note>Tom的IRC服务器
 120.250.69.78(有防火墙)
 还好我有个Fancy的马甲,这样他们才不会起疑
-Important!:Fancy的机器上不要放东西
+Important!Fancy的机器上不要放东西
 </note>
 
     <note>sPSB的IRC服务器

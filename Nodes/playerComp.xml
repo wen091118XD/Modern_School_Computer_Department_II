@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="playerComp" name="#PLAYERNAME# 的电脑" security="3" allowsDefaultBootModule="false" type="1" >
+<Computer id="playerComp" name="#PLAYERNAME# 的电脑" security="3" allowsDefaultBootModule="false" type="4" >
 
 <adminPass pass="123456ABC" />
 <account username="#PLAYERNAME#" password="123456ABC" type="ADMIN" />
@@ -9,7 +9,7 @@
 <proxy time="10" />
 <portsForCrack val="3" />
 <trace time="120" />
-<firewall level="4" solution="password" additionalTime="0.1" />
+<firewall level="4" solution="wenXD" additionalTime="0.1" />
 
 <file path="bin" name="WebServerAnalyst.exe">#WEB_CRACK#</file>
 

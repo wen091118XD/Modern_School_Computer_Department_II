@@ -1,7 +1,7 @@
 <ConditionalActions>
 <Instantly needsMissionComplete="false">
     <LaunchHackScript Filepath="HackerScripts/Mission7/nevereoshacknever.txt" DelayHost="DelayHost" Delay="0" SourceComp="nevereos1" TargetComp="NeverComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-    <AddAsset FileName="eOSscanertool.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="NeverComp" TargetFolderpath="bin"/>
+    <AddAsset FileName="eOS_ScanDriveTool.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="NeverComp" TargetFolderpath="bin"/>
 
     <AddConditionalActions Filepath="Actions/IRCMassage5/findedtruth.xml" DelayHost="DelayHost" Delay="0"/>
 </Instantly>

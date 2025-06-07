@@ -14,15 +14,14 @@
     any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
     don't worry about it.-->
     <sender>Kiya</sender>
-    <subject>启动成功了吗?</subject>
+    <subject>添加ip</subject>
     <body>#PLAYERNAME#你终于来了,快去我们的路由器把你的ip加进去然后连接IRC服务器,头有很重要的东西要说.
 弄好了记得回复我</body>
 
     <attachments>
       
       <link comp="MainIRCWhitelistServer" />
-
-      
+    
     </attachments>
   </email>
 </mission>

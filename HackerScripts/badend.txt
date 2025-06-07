@@ -9,7 +9,7 @@ writel hahaha,我这个防御系统是不是很给力 $#%#$
 delay 2 $#%#$
 writel ok,时间快到了,该说永别了... $#%#$
 delay 2 $#%#$
-writel 再见,再也不见 $#%#$
+writel 再见,再也不见... $#%#$
 delay 2 $#%#$
 systakeover $#%#$
 

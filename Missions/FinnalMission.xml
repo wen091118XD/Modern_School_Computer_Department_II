@@ -16,9 +16,9 @@
 
   <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
   <email>
-    <sender>Err0r</sender>
-    <subject>FBIK</subject>
-    <body>ZQG</body>
+    <sender>Lost</sender>
+    <subject>最终的决战</subject>
+    <body>摧毁tom的机器,阻止他继续作恶,删除他的所有文件!</body>
 
     <attachments>
 
