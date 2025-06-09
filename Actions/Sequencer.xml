@@ -12,7 +12,7 @@
 <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="14">1</AddIRCMessage>
 <AddIRCMessage Author="Kiya" TargetComp="LostIRC" Delay="15">GOGOGO!!!</AddIRCMessage>
 
-<StartScreenBleedEffect AlertTitle="FINALBATTLE" CompleteAction="Actions/end/badend.xml" TotalDurationSeconds="170" DelayHost="DelayHost" Delay="16">打破主动安全,摧毁防火墙
+<StartScreenBleedEffect AlertTitle="FINALBATTLE" CompleteAction="Actions/end/badend.xml" TotalDurationSeconds="165" DelayHost="DelayHost" Delay="16">打破主动安全,摧毁防火墙
 找到Tom的网关,清除home,sys,bin文件夹
 GO!GO!GO!</StartScreenBleedEffect>
 

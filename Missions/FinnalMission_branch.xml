@@ -2,7 +2,7 @@
 
 <mission id="finnalmissionbranch" activeCheck="true">
   <goals>
-        <goal type="delay" time="170"/>
+        <goal type="delay" time="165"/>
   </goals>
   
   <missionEnd>loadConditionalActions:Actions/end/badend.xml</missionEnd>
