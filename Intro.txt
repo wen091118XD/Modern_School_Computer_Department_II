@@ -1,4 +1,4 @@
-﻿欢迎使用 HackNetOS 发行版 (eOS CE/Hacknet 1.0.0-19041-Bit x86_64)          
+﻿欢迎使用 HackNetOS 发行版 (eOS CE/Hacknet 1.0.0-19040-Bit x86_64)          
           
 已连接至摩登中学校内互联网络环境. 
 正在通过 eOS 服务验证身份, 验证接口服务器: api.ce.eosservice.net                            
