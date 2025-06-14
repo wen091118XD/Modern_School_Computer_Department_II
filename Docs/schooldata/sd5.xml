@@ -1,0 +1,19 @@
+<mission id="sd5">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Peter">姓名:Peter          
+性别:男
+出生年份:2009年12月21日         
+班级:初三15班         
+血型:O型           
+计算机ip:23.57.193.70          
+备注:此人是科学社成员
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

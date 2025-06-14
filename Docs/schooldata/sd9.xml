@@ -1,0 +1,17 @@
+<mission id="sd8">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="#PLAYERNAME#">姓名:#PLAYERNAME#          
+性别:男
+出生年份:2009年11月18日         
+班级:初三5班         
+血型:AB型                     
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

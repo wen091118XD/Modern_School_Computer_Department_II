@@ -1,0 +1,18 @@
+<mission id="sd1">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Luma">姓名:Luma          
+性别:女 
+出生年份:2009年10月07日         
+班级:初三9班         
+血型:A型           
+计算机ip:175.20.175.213 
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

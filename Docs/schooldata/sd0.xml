@@ -1,0 +1,18 @@
+<mission id="sd0">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Kiya">姓名:Kiya          
+性别:女
+出生年份:2009年11月30日         
+班级:初三8班         
+血型:AB型           
+计算机ip:212.70.54.191          
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

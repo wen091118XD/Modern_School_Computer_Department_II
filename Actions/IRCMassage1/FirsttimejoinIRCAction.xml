@@ -16,6 +16,8 @@
         <AddIRCMessage Author="Luma" TargetComp="MainIRC" Delay="28">欢迎新朋友</AddIRCMessage>
 
         <AddIRCMessage Author="Fancy" TargetComp="MainIRC" Delay="30">我差了好多东西...</AddIRCMessage>
+
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="34">哦对了,我还在home放了一个xserver...以防万一</AddIRCMessage>
     </OnConnect>
 
     <HasFlags requiredFlags="havetools">

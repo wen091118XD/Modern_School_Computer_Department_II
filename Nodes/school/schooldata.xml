@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="schooldata" name="摩登中学 学生数据库" ip="data.modern.edu" security="4" type="empty">
+
+  <admin type="fast" isSuper="true" resetPassword="true"/>
+  <ports>80, 443</ports>
+  <portsForCrack val="2" />
+  <firewall level="4" additionalTime="0.1" />
+  <proxy time="15"/>
+  <trace time="20" />
+  <CustomConnectDisplayDaemon />
+  <variableMissionListingServer 
+    name="摩登中学 数据库" 
+    articleFolderPath="Docs/schooldata" 
+    color="189,183,107" 
+    assigner="false" 
+    public="true" 
+    title="摩登中学 数据库"/>
+
+</Computer>

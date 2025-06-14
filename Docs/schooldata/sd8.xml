@@ -1,0 +1,17 @@
+<mission id="sd8">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Edon">姓名:Edon          
+性别:男
+出生年份:2010年02月28日         
+班级:初三5班         
+血型:A型                     
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

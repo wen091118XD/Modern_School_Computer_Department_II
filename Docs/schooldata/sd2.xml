@@ -1,0 +1,18 @@
+<mission id="sd2">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Lost">姓名:Lost          
+性别:男
+出生年份:2010年5月21日         
+班级:初三11班         
+血型:B型           
+计算机ip:181.28.235.205          
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

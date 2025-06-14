@@ -1,0 +1,17 @@
+<mission id="sd7">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Jack">姓名:Jack          
+性别:男
+出生年份:2010年04月25日         
+班级:初三2班         
+血型:O型                     
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

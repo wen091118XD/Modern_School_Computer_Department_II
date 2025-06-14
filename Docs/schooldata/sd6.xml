@@ -1,0 +1,17 @@
+<mission id="sd6">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Cucumber">姓名:Cucumber          
+性别:男
+出生年份:2009年11月19日         
+班级:初三15班         
+血型:A型                     
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

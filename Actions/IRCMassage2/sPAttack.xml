@@ -36,8 +36,8 @@
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="16">但愿来得及...</AddIRCMessage>
 
         <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="20">找到了,是studentpower</AddIRCMessage>
-        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="21">studentpower?</AddIRCMessage>
-        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="23">那不是计算机一部的人吗</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="21">fuck studentpower!</AddIRCMessage>
+        <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="23">计算机一部的人疯了吧...</AddIRCMessage>
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="25">等一下,我快进入#PLAYERNAME#的机器了</AddIRCMessage>
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="28">给你俩个任务,去清空攻击者的sys文件夹</AddIRCMessage>
 

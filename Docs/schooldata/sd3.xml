@@ -1,0 +1,19 @@
+<mission id="sd3">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Tom">姓名:Tom          
+性别:男
+出生年份:2009年09月12日         
+班级:初三12班         
+血型:AB型           
+计算机ip:115.54.137.79          
+备注:此人是计算机二部部长
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

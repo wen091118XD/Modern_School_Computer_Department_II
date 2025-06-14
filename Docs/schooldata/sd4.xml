@@ -1,0 +1,18 @@
+<mission id="sd4">
+<goals></goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="Never">姓名:Never          
+性别:男
+出生年份:2011年10月21日         
+班级:初二15班         
+血型:B型           
+备注:此人有一台笔记本电脑         
+</posting>    
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>
