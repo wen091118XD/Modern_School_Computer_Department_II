@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 
-<mission id="uploadtoolreboot" >
+<mission id="uploadtoolreboot" activeCheck="true" >
   <goals>
   
     <goal type="filedownload" target="MainIRCUploadServer" file="x-server.sys" path="home"/>

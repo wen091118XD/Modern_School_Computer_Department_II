@@ -3,11 +3,11 @@
 <mission id="uploadtooldelay" activeCheck="true" >
   <goals>
   
-   <goal type="delay" time="60"/>
+   <goal type="delay" time="0.1"/>
     
   </goals>
   
-  <nextMission IsSilent="true" >Missions/Mission4/uploadtool_reboot.xml</nextMission>
+  <nextMission>NONE</nextMission>
 
 
   <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->

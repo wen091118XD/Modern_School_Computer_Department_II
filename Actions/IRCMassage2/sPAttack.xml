@@ -7,22 +7,18 @@
 
         <SetLock DelayHost="DelayHost" Delay="2" Module="terminal" IsLocked="true" IsHidden="true" />
         <SetLock DelayHost="DelayHost" Delay="2.1" Module="NetMap" IsLocked="true" IsHidden="true"/>
-        <SetLock DelayHost="DelayHost" Delay="2.2" Module="Ram" IsLocked="true" IsHidden="false"/>
+        <SetLock DelayHost="DelayHost" Delay="2.2" Module="Ram" IsLocked="true" IsHidden="true"/>
         <SetLock DelayHost="DelayHost" Delay="2.3" Module="Display" IsLocked="true" IsHidden="true"/>
 
         <SetLock DelayHost="DelayHost" Delay="3" Module="terminal" IsLocked="true" IsHidden="false" />
-
-        <LaunchHackScript Filepath="HackerScripts/Mission4/tomhelp.txt" DelayHost="DelayHost" Delay="28" SourceComp="TomCompproxy1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
-
-        <SetLock DelayHost="DelayHost" Delay="54.2" Module="terminal" IsLocked="false" IsHidden="false" />
-        <SetLock DelayHost="DelayHost" Delay="54.7" Module="NetMap" IsLocked="false" IsHidden="true" />
-        <SetLock DelayHost="DelayHost" Delay="55.1" Module="Ram" IsLocked="false" IsHidden="false" />
-        <SetLock DelayHost="DelayHost" Delay="55.4" Module="Display" IsLocked="false" IsHidden="false" />
-        
-
-        <KillExe DelayHost="DelayHost" Delay="31" ExeName="*"/>
+                <SetLock DelayHost="DelayHost" Delay="3.1" Module="Ram" IsLocked="false" IsHidden="false"/>
 
 
+        <SetLock DelayHost="DelayHost" Delay="40" Module="terminal" IsLocked="false" IsHidden="false" />
+        <SetLock DelayHost="DelayHost" Delay="40" Module="NetMap" IsLocked="false" IsHidden="false" />
+        <SetLock DelayHost="DelayHost" Delay="40" Module="Display" IsLocked="false" IsHidden="false" />
+
+        <AddConditionalActions Filepath="Actions/IRCMassage2/Tomhelp.xml" DelayHost="DelayHost" Delay="15"/>
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="2">ok@#PLAYERNAME#你干的很好</AddIRCMessage>
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="3.5">不太对劲...</AddIRCMessage>
         <AddIRCMessage Author="Tom" TargetComp="MainIRC" Delay="7">糟了!!</AddIRCMessage>
@@ -44,7 +40,7 @@
         <AddIRCMessage Author="Lost" TargetComp="MainIRC" Delay="29">收到</AddIRCMessage>
         <AddIRCMessage Author="Kiya" TargetComp="MainIRC" Delay="29.5">好的</AddIRCMessage>
 
-    <LaunchHackScript Filepath="HackerScripts/Mission4/HacksPAttack.txt" DelayHost="DelayHost" Delay="30" SourceComp="LostComp" TargetComp="sPAttacker" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<LaunchHackScript Filepath="HackerScripts/Mission4/HacksPAttack.txt" DelayHost="DelayHost" Delay="30" SourceComp="LostComp" TargetComp="sPAttacker" RequireLogsOnSource="false" RequireSourceIntact="true"/>
 
 
 

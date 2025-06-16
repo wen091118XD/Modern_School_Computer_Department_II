@@ -42,7 +42,7 @@ Jmail 免费邮箱服务
   <StartsWithTutorial>false</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>true</HasIntroStartup>
+  <HasIntroStartup>false</HasIntroStartup>
   
   <StartingTheme>Themes/Start.xml</StartingTheme>
   <!-- 

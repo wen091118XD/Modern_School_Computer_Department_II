@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+    <OnConnect target="playerComp">
+        
+
+        <LaunchHackScript Filepath="HackerScripts/Mission4/tomhelp.txt" DelayHost="DelayHost" Delay="1" SourceComp="TomCompproxy1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<LoadMission MissionName="Missions/Mission4/uploadtool_reboot.xml"/>
+    
+    </OnConnect>
+
+
+
+
+</ConditionalActions>
