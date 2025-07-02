@@ -27,7 +27,6 @@ Jmail尊重隐私.
             <link comp="modernWeb" />
             <link comp="studentUnion" />
             <link comp="newsWeb" />
-            <link comp="schooldata"/>
         </attachments>
     </email>
 </mission>

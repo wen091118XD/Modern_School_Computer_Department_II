@@ -1,17 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 
-<mission id="uploadtoolreboot" activeCheck="true" >
+<mission id="uploadtoolrebootbranch" activeCheck="true" >
   <goals>
   
-    <goal type="filedownload" target="MainIRCUploadServer" file="x-server.sys" path="home"/>
+    <goal type="filedownload" target="sPAttacker" file="x-server.sys" path="sys"/>
     
   </goals>
-    <missionEnd>loadConditionalActions:Actions/IRCmassage2/stophidenetmap.xml</missionEnd>
+    <missionEnd>loadConditionalActions:Actions/IRCmassage2/stophidenetmapbranch.xml</missionEnd>
   <nextMission>NONE</nextMission>
-
-    <branchMissions>
-        <branch>Missions/Mission4/uploadtool_rebootbranch.xml</branch>
-    </branchMissions>
 
 
   <!-- This is the data of the email the player will be sent when this mission is accepted or continued to -->
@@ -20,14 +16,14 @@
     email on the server the player will be responding to, it will still run it's completion checks as long as the player is responding to
     any email from the same sender. This doesn't affect basic and normal missions, so if you're not doing anything too fancy,
     don't worry about it.-->
-    <sender>Tom</sender>
-    <subject>下载x-server</subject>
+    <sender>ERR0R</sender>
+    <subject>ERR0R</subject>
     <body>
-前往120.250.68.237的home文件夹下载x-server.sys,完成后回复这封邮件,我会帮你进行善后工作的.
+ERR0R
 </body>
 
     <attachments>
-        <dlink target="MainIRCUploadServer"/>
+
     </attachments>
   </email>
 </mission>

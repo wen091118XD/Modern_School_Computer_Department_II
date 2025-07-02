@@ -1,6 +1,6 @@
 <ConditionalActions>
 
-    <Instantly>
+    <OnDisconnect target="toolSeller_new">
     
         <KillExe DelayHost="DelayHost" Delay="2" ExeName="*"/>
         <LaunchHackScript Filepath="HackerScripts/Mission4/sPAttackHack.txt" DelayHost="DelayHost" Delay="0" SourceComp="sPAttacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true" />
@@ -44,7 +44,7 @@
 
 
 
-    </Instantly>
+    </OnDisconnect>
 
 
 </ConditionalActions>

@@ -1,0 +1,9 @@
+Errors Found. Writing report to Extensions/MSCDII/report.txt
+Error Loading Mission: Extensions/MSCDII/Missions\StartingMission_check.xml
+
+Unexpected end of file looking for nextMission tag in computer.
+Your tags might be out of order!
+ 
+ 
+Source : Hacknet  ::  System.FormatException
+

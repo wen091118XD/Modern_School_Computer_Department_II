@@ -5,6 +5,7 @@
     <portsForCrack val="2" />
     <trace time="25" />
     <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+    <dlink target="tomComp"/>
     <file path="Whitelist" name="list.txt">
 115.54.137.79
 59.142.88.89

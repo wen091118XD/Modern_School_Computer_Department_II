@@ -1,0 +1,9 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <SetLock DelayHost="DelayHost" Delay="15" Module="NetMap" IsLocked="false" IsHidden="false" />
+        <LaunchHackScript Filepath="HackerScripts/Mission4/forkboombranch.txt" DelayHost="DelayHost" delay="2" SourceComp="TomCompproxy1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+
+        <AddConditionalActions Filepath="Actions/IRCMassage3/HelpSchoolDevelopWebside.xml" DelayHost="DelayHost" Delay="8"/>
+        
+    </Instantly>
+</ConditionalActions>

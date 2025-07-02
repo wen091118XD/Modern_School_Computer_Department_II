@@ -9,8 +9,8 @@
         <SetLock DelayHost="DelayHost" Delay="0" Module="ram" IsLocked="true" IsHidden="true"/>
         <SetLock DelayHost="DelayHost" Delay="0" Module="netmap" IsLocked="true" IsHidden="true"/>
         <SetLock DelayHost="DelayHost" Delay="0" Module="display" IsLocked="true" IsHidden="true"/>
-        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.end.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="0" />
-        <SwitchToTheme ThemePathOrName="Themes/prologue/prologue.ms.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="8" />
+        <SwitchToTheme ThemePathOrName="Themes/end1.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="0" />
+        <SwitchToTheme ThemePathOrName="Themes/end2.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="8" />
         <SwitchToTheme ThemePathOrName="Themes/eOS-Hacknet-Modified.xml" FlickerInDuration="0" DelayHost="DelayHost" Delay="15"/>
 
         <SetLock DelayHost="DelayHost" Delay="16" Module="terminal" IsLocked="true" IsHidden="false"/>

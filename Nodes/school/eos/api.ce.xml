@@ -7,5 +7,12 @@
   <firewall level="4" additionalTime="0.1" />
   <proxy time="15"/>
   <trace time="20" />
+    <variableMissionListingServer 
+    name="摩登中学 数据库" 
+    articleFolderPath="Docs/schooldata" 
+    color="189,183,107" 
+    assigner="false" 
+    public="true" 
+    title="摩登中学 数据库"/>
   <LogoCustomConnectDisplayDaemon logo="Logo/school.png" title="Logo/school.png" overdrawLogo="true" buttonAlignment="right"/>
 </Computer>

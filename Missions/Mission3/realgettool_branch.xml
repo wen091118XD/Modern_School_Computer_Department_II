@@ -2,7 +2,9 @@
 
 <mission id="realgettoolbranch" >
   <goals>
-        <goal type="clearfolder" target="MainIRCWhitelistServer" path="log"/>
+        <goal type="filedeletion" target="MainIRCWhitelistServer" file="@1_115.54.137.79_Disconnected" path="log"/>
+
+        <goal type="hasflag" target="havetools"/>
   </goals>
     <missionEnd>loadConditionalActions:Actions/IRCmassage2/UploadTools.xml</missionEnd>
   <nextMission>NONE</nextMission>
