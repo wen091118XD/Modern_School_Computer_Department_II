@@ -2,7 +2,7 @@ config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
 delay 3 $#%#$
 connect $#%#$
 delay 2 $#%#$
-writel 666,标准的Tom风格
+writel 666,标准的Tom风格 $#%#$
 delay 5 $#%#$
 writel 我现在帮你修复一下,重启完就去IRC服务器 $#%#$
 delay 5 $#%#$
