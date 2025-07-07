@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Computer id="MainIRCUploadServer" name="Tom 的上传服务器" ip="120.250.68.237" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="4">
+<Computer id="MainIRCUploadServer" name="Tom 上传服务器" ip="120.250.68.237" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="4">
 
   <ports>21, 80, 1433, 443, 25</ports>
 
